@@ -1,0 +1,98 @@
+.btn {
+    padding: .5rem 1rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    transition: all 500ms;
+}
+
+.btn-success {
+    background: rgb(2, 156, 2);
+    color: white;
+}
+
+.btn-warning {
+    background: yellow;
+}
+
+.btn-danger {
+    background: rgb(238, 45, 20);
+    color: white;
+}
+
+.btn-danger:hover {
+    background: rgb(247, 84, 62);
+    color: white;
+
+}
+
+.btn-warning:hover {
+    background: rgb(245, 245, 85);
+    color: rgb(156, 156, 6);
+}
+
+.form-group {
+    display: inline-block;
+    padding: .5rem;
+    flex: 4;
+}
+
+.form-date-group {
+    flex: 1;
+}
+
+.form-control {
+    padding: .5rem .5rem .5rem 1.3rem;
+    font-size: 12px;
+    border: none;
+    color: rgb(99, 99, 99);
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(235, 235, 235);
+}
+
+.form-control:hover {
+    border: none;
+}
+
+.form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(223, 223, 223);
+}
+
+.btn-success:hover {
+    background: rgb(18, 177, 18);
+    box-shadow: 0 0 10px rgb(204, 204, 204);
+}
+
+.add-task {
+    padding: .4rem 1rem .2rem;
+    margin-left: .5rem;
+    box-shadow: 0 0 10px rgb(226, 226, 226);
+}
+
+.edit-icon,
+.delete-icon,
+.completed-icon {
+    padding: .3rem 0.5rem 0.1rem 0.5rem !important;
+    background: white;
+    margin-left: .3rem;
+    color: red;
+}
+
+.edit-icon {
+    color: rgb(212, 212, 6);
+}
+
+.delete-icon {
+    color: rgb(226, 52, 21);
+}
+
+.date-picker {
+    width: 20%;
+}
+
+.error {
+  border: 1px solid red;
+}
